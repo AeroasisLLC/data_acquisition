@@ -19,14 +19,19 @@
 * return the dict
 ### convert_to_json()
 * convert the received dict to json
-* return 
+* return
 ### send_to_arduino()
 * send a serial message to the arduino
 ### receive_from_arduino()
 * receive the serial message from arduino
 ## ImageAcquire
-### image_acquire()
-### filter_image()
+### __init__
+* initialize VideoCapture
+* Specify Frame dimension
+### capture_image()
+* capture Frame
+* save the image to Images folder
+* return true 
 
 ## DataAcquisitionControlCenter
 ###
