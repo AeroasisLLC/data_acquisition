@@ -8,7 +8,7 @@ class CameraCapture:
         # initialize logger variable
         self.logger = logger_variable(__name__, 'CameraCapture.log')
 
-        # initialize VideoCapture
+        # initialize VideoCapture variable
         self.cap = cv2.VideoCapture(-1)
         logger.debug('VideoCapture is initialized')
 
